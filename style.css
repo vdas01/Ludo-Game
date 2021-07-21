@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+body{
+    background-color: black;
+}
+#dice1,#dice2{
+  width:470px;
+  font-size: 2rem;
+}
+button{
+    padding: 10px;
+    width: 13rem;
+    border: none;
+    font-size: 22px;
+    background-color:azure;
+    color: black;
+}
+#head{
+    font-size: 50px;
+   
+}
+.button{
+    border: none;
+}
+h4{
+    font-size: 2.5rem;
+}
