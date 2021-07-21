@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row p-4">
+          <div class="col-12 text-center">
+              <h1 id="head">Dice Game</h1>
+          </div>
+          <div class="row m-auto">
+              <div class="col-md-5 mr-5 text-center" id="dice1">
+                  <h4>Dice 1</h4>
+                  <img src="./images/dice1.png" alt="" width="360px" id="img1">
+              </div>
+              <div class="col-md-5 text-center" id="dice2">
+                  <h4>Dice 2</h4>
+                  <img src="images/dice2.png" alt="" width="360px" id="img2">
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 text-center button">
+            <button onclick="play()" id="but"></button>
+          </div>
+         
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
